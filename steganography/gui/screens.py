@@ -122,7 +122,7 @@ class TextEncodePage(tk.Frame):
         tk.Label(analysis_win, text="İstatistiksel Metrikler", font=("Arial", 16, "bold"), bg="#ffffff").pack(pady=15)
         tk.Label(analysis_win, text=f"Mean Squared Error (MSE): {mse_val:.4f}", font=("Arial", 12), bg="#ffffff").pack(pady=5)
         tk.Label(analysis_win, text=f"PSNR (Gürültü Oranı): {psnr_val:.2f} dB", font=("Arial", 12), bg="#ffffff").pack(pady=5)
-        tk.Label(analysis_win, text=f"SSIM (Yapısal Benzerlik): {ssim_val:.4f}", font=("Arial", 12), bg="#ffffff").pack(pady=5)
+        tk.Label(analysis_win, text=f"SSIM (Yapısal Benzerlik): {float(ssim_val):.10f}", font=("Arial", 12), bg="#ffffff").pack(pady=5)
         
         tk.Label(analysis_win, text="Görsel Analiz Araçları", font=("Arial", 14, "bold"), bg="#ffffff").pack(pady=(20, 10))
         

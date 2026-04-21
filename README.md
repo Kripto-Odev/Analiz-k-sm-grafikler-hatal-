@@ -1,0 +1,1 @@
+# Analiz-k-sm-grafikler-hatal-
